@@ -1,0 +1,96 @@
+{
+  "OpenOffice": [
+    {
+      "logo": "word",
+      "nom": "word",
+      "niveau": "intermediaire"
+    },
+    {
+      "logo": "powerPoint",
+      "nom": "powerPoint",
+      "niveau": "intermediaire"
+    },
+    {
+      "logo": "excel",
+      "nom": "excel",
+      "niveau": "intermediaire"
+    }
+  ],
+  "WordPress": [
+    {
+      "logo": "js",
+      "nom": "JavaScript",
+      "niveau": "debutant"
+    },
+    {
+      "logo": "html",
+      "nom": "html",
+      "niveau": "intermediaire"
+    },
+    {
+      "logo": "css",
+      "nom": "css",
+      "niveau": "debutant"
+    },
+    {
+      "logo": "swift",
+      "nom": "swift",
+      "niveau": "debutant"
+    }
+  ],
+  "webDesign": [
+    {
+      "logo": "komodo",
+      "nom": "komodo",
+      "niveau": "debutant"
+    },
+    {
+      "logo": "swiftUI",
+      "nom": "swiftUI",
+      "niveau": "debutant"
+    },
+    {
+      "logo": "figma",
+      "nom": "figma",
+      "niveau": "debutant"
+    },
+    {
+      "logo": "notification",
+      "nom": "notification",
+      "niveau": "intermediaire"
+    },
+    {
+      "logo": "canva",
+      "nom": "canva",
+      "niveau": "debutant"
+    }
+  ],
+  "projet":[
+
+    {"nom": "Object",
+    "img": "s",
+    "link":"https://ilyashamdaoui.github.io/Object/"
+
+  },
+    {"nom": "guess the number",
+    "img": "s",
+    "link":"https://ilyashamdaoui.github.io/GuessTheNumber/"
+
+  },
+    {"nom": "gestionnaire de tache",
+    "img": "s",
+    "link":"https://ilyashamdaoui.github.io/gestionnaireDesTache/"
+
+  },
+    {"nom": "bougies",
+    "img": "s",
+    "link": "https://ilyashamdaoui.github.io/renduHTMLCSS/"
+
+  },
+    {"nom": "Magasin de chaussure",
+    "img": "s",
+    "link":"https://ilyashamdaoui.github.io/RenduJSFinal/"
+
+  }
+  ]
+}
