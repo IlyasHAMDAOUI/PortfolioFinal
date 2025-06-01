@@ -1,96 +1,121 @@
 {
-  "OpenOffice": [
+  "packOffice": [
     {
-      "logo": "word",
       "nom": "word",
-      "niveau": "intermediaire"
+      "logo": "iconWORD.png",
+      "niveau": "intermédiaire"
     },
     {
-      "logo": "powerPoint",
-      "nom": "powerPoint",
-      "niveau": "intermediaire"
+      "nom": "powerpoint",
+      "logo": "iconPOWERPOINT.png",
+      "niveau": "intermédiaire"
     },
     {
-      "logo": "excel",
       "nom": "excel",
-      "niveau": "intermediaire"
+      "logo": "iconEXCEL.png",
+      "niveau": "intermédiaire"
     }
   ],
-  "WordPress": [
+  "developpementWeb": [
     {
-      "logo": "js",
-      "nom": "JavaScript",
-      "niveau": "debutant"
+      "nom": "js",
+      "logo": "iconJS.png",
+      "niveau": "intermédiaire"
     },
     {
-      "logo": "html",
       "nom": "html",
-      "niveau": "intermediaire"
+      "logo": "iconHTML.png",
+      "niveau": "intermédiaire"
     },
     {
-      "logo": "css",
       "nom": "css",
-      "niveau": "debutant"
-    },
-    {
-      "logo": "swift",
-      "nom": "swift",
-      "niveau": "debutant"
+      "logo": "iconCSS.png",
+      "niveau": "intermédiaire"
     }
   ],
-  "webDesign": [
+  "developpementMobile": [
     {
-      "logo": "komodo",
-      "nom": "komodo",
-      "niveau": "debutant"
+      "logo": "iconSWIFT.png",
+      "nom": "Swift",
+      "niveau": "débutant"
     },
     {
-      "logo": "swiftUI",
-      "nom": "swiftUI",
-      "niveau": "debutant"
-    },
-    {
-      "logo": "figma",
-      "nom": "figma",
-      "niveau": "debutant"
-    },
-    {
-      "logo": "notification",
-      "nom": "notification",
-      "niveau": "intermediaire"
-    },
-    {
-      "logo": "canva",
-      "nom": "canva",
-      "niveau": "debutant"
+      "logo": "iconSWIFTUI.png",
+      "nom": "SwiftUI",
+      "niveau": "débutant"
     }
   ],
-  "projet":[
-
-    {"nom": "Object",
-    "img": "s",
-    "link":"https://ilyashamdaoui.github.io/Object/"
-
-  },
-    {"nom": "guess the number",
-    "img": "s",
-    "link":"https://ilyashamdaoui.github.io/GuessTheNumber/"
-
-  },
-    {"nom": "gestionnaire de tache",
-    "img": "s",
-    "link":"https://ilyashamdaoui.github.io/gestionnaireDesTache/"
-
-  },
-    {"nom": "bougies",
-    "img": "s",
-    "link": "https://ilyashamdaoui.github.io/renduHTMLCSS/"
-
-  },
-    {"nom": "Magasin de chaussure",
-    "img": "s",
-    "link":"https://ilyashamdaoui.github.io/RenduJSFinal/"
-
-  }
+  "design": [
+    {
+      "logo": "iconFIGMA.png",
+      "nom": "Figma",
+      "niveau": "intermédiaire"
+    },
+    {
+      "logo": "iconCANVA.png",
+      "nom": "Canva",
+      "niveau": "intermédiaire"
+    },
+    {
+      "logo": "iconWebFlow.webp",
+      "nom": "WebFlow",
+      "niveau": "débutant"
+    },
+    {
+      "logo": "iconNOTION.png",
+      "nom": "Notion",
+      "niveau": "débutant"
+    }
+  ],
+  "projets": [
+    {
+      "nom": "Mini e-Commerce",
+      "img": "banniereMiniECommerce.png",
+      "lien": "https://ilyashamdaoui.github.io/Object/",
+      "description": "Produit pendant ma formation à La Toile, EM-Lyon. HTML, CSS, JavaScript",
+      "cathegory": "web"
+    },
+    {
+      "nom": "Guess the number",
+      "img": "banniereGuessTheNumber.png",
+      "lien": "https://ilyashamdaoui.github.io/GuessTheNumber/",
+      "description": "Produit pendant ma formation à La Toile, EM-Lyon. HTML, JavaScript",
+      "cathegory": "web"
+    },
+    {
+      "nom": "Gestionnaire de tâches",
+      "img": "banniereGestionnaireDeTache.png",
+      "lien": "https://ilyashamdaoui.github.io/gestionnaireDesTache/",
+      "description": "Produit pendant ma formation à La Toile, EM-Lyon. HTML, CSS, JavaScript",
+      "cathegory": "web"
+    },
+    {
+      "nom": "Projet Bougie",
+      "img": "banniereProjetBougie.png",
+      "lien": "https://ilyashamdaoui.github.io/renduHTMLCSS/",
+      "description": "Produit pendant ma formation à La Toile, EM-Lyon. HTML, CSS",
+      "cathegory": "web"
+    },
+    {
+      "nom": "Magasin de chaussure",
+      "img": "banniereMagasinDeChaussure.png",
+      "lien": "https://ilyashamdaoui.github.io/RenduJSFinal/",
+      "description": "Produit pendant ma formation à La Toile, EM-Lyon. HTML, CSS, JavaScript",
+      "category": "web"
+    },
+    {
+      "nom": "Share Füd",
+      "img": "banniereShareFud.png",
+      "lien": "https://www.figma.com/design/nxDtq9qfShYBbvmaFhJNuJ/Sprint-design-repas-partag%C3%A9?node-id=51-258&t=oVfj9kxW3nQgLl4e-1",
+      "description": "Produit pendant ma formation à La Toile, EM-Lyon",
+      "cathegory": "Prototype Figma"
+    },
+    {
+      "nom": "MAMY: Projet AFP",
+      "img": "banniereMAMY.png",
+      "lien": "https://www.figma.com/design/1UvnZCZMptdvVIj2WnK8k7/Maquette-Histoire?node-id=0-1&t=D6VW7PvWi68jb3TT-1",
+      "description": "Produit pendant ma formation à SIMPLON",
+      "cathegory": "Prototype Figma"
+    }
   ]
 }
