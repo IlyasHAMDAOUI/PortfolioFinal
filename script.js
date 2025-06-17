@@ -129,6 +129,13 @@ fetch("baseDeDonne.json")
     const projet = document.createElement("div");
     projet.classList.add("projet");
 
+const nomProjet= document.createElement("h2");
+nomProjet.textContent= "MES PROJETS";
+const sousNomProjet= document.createElement("h3");
+sousNomProjet.textContent= "Production";
+projet.appendChild(sousNomProjet)
+projet.appendChild(nomProjet)
+
     const projets = data.projets;
     projets.forEach((element) => {
       const projetsDiv = document.createElement("div");
@@ -167,3 +174,20 @@ fetch("baseDeDonne.json")
 //   .catch((error) => {
 //     // console.error("Erreur lors du chargement des produits : ", error);
 //   })
+
+
+// ajout du Bot
+// ... après création des containers 'skill' et 'projet'
+
+skill.classList.add("skill", "fade-in");
+projet.classList.add("projet", "fade-in");
+
+skillPortfolio.appendChild(skill);
+skillPortfolio.appendChild(projet);
+
+// Déclencher l’animation fade-in après insertion dans le DOM
+setTimeout(() => {
+  document.querySelectorAll(".fade-in").forEach((el) => {
+    el.classList.add("visible");
+  });
+}, 100);
