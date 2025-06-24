@@ -24,6 +24,7 @@ fetch("baseDeDonne.json")
 
     const skill = document.createElement("div");
     skill.classList.add("skill");
+skill.id= "MonParcours";
 
     const outPackOffice = document.createElement("div");
     outPackOffice.classList.add("out");
@@ -126,15 +127,16 @@ fetch("baseDeDonne.json")
       skill.appendChild(outDesign);
     });
 
+    // const nomProjet = document.createElement("h2");
+    // nomProjet.textContent = "MES PROJETS";
+    // const sousNomProjet = document.createElement("h3");
+    // sousNomProjet.textContent = "Production";
+    // projet.appendChild(sousNomProjet);
+    // projet.appendChild(nomProjet);
+    
     const projet = document.createElement("div");
     projet.classList.add("projet");
 
-const nomProjet= document.createElement("h2");
-nomProjet.textContent= "MES PROJETS";
-const sousNomProjet= document.createElement("h3");
-sousNomProjet.textContent= "Production";
-projet.appendChild(sousNomProjet)
-projet.appendChild(nomProjet)
 
     const projets = data.projets;
     projets.forEach((element) => {
@@ -159,7 +161,6 @@ projet.appendChild(nomProjet)
       lien.target = "_blank";
       lien.textContent = "ici pour acceder au site";
 
-
       projetsDiv.appendChild(descriptionProjet);
       projetsDiv.appendChild(img);
       projetsDiv.appendChild(nom);
@@ -174,7 +175,6 @@ projet.appendChild(nomProjet)
 //   .catch((error) => {
 //     // console.error("Erreur lors du chargement des produits : ", error);
 //   })
-
 
 // ajout du Bot
 // ... après création des containers 'skill' et 'projet'
